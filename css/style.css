@@ -1,0 +1,164 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  direction: rtl;
+  height: 100vh;
+  box-sizing: border-box;
+  line-height: 1.5;
+  background: linear-gradient(to bottom, #81b3e8, #d5dce6);
+  color: #000000;
+}
+.contain {
+  margin: 5px; 
+  padding: 10px; 
+}
+
+.header {
+  background-color: #1b284c;
+  width: 25%;
+  margin: auto;
+  text-align: center;
+  border-radius: 50px;
+  color: white;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+}
+ .content .par-1 {
+     font-size: 30px;
+     font-weight: 800;
+ }
+
+.content .par-6 span {
+  color: rgb(147, 14, 14);
+  font-size: 70px;
+}
+
+.content .par-6 {
+  font-size: 30px;
+}
+.content .par-5 {
+  font-size: 40px;
+  font-weight: 800;
+}
+i {
+  font-size: 70px;
+  color: #0a4200;
+  transition: transform 0.3s ease;
+  -webkit-transition: transform 0.3s ease;
+  -moz-transition: transform 0.3s ease;
+  -ms-transition: transform 0.3s ease;
+  -o-transition: transform 0.3s ease;
+}
+
+i:hover {
+  cursor: pointer !important;
+  opacity: 0.8;
+  transform: translateX(5px);
+  -webkit-transform: translateX(5px);
+  -moz-transform: translateX(5px);
+  -ms-transform: translateX(5px);
+  -o-transform: translateX(5px);
+}
+
+.contact p {
+  font-size: 40px;
+  font-weight: 800;
+}
+
+/* Default styles */
+
+
+@media (max-width: 822px) {
+body {
+        font-size: 40px;
+    }
+
+    .content .par-1 {
+        font-size: 40px;
+        font-weight: 800;
+    }
+    .content .par-6 {
+        font-size: 40px;
+    }
+
+    .content .par-5 {
+        font-size: 30px;
+        font-weight: 800;
+    }
+
+    .contact p {
+        font-size: 40px;
+        font-weight: 800;
+    }
+
+    .content .par-6 span {
+        color: rgb(147, 14, 14);
+        font-size: 55px;
+    }
+  .header {
+    width: 40%;
+  }
+}
+
+/* Styles for screens with a maximum width of 480px */
+@media (max-width: 480px) {
+body {
+        font-size:20px ;
+    }
+         .content .par-1 {
+             font-size: 25px;
+             font-weight: 800;
+         }
+  .content .par-6 {
+    font-size: 30px;
+  }
+
+  .content .par-5 {
+    font-size: 25px;
+    font-weight: 800;
+  }
+  .contact p {
+      font-size: 35px;
+      font-weight: 800;
+  }
+  .content .par-6 span {
+    color: rgb(147, 14, 14);
+    font-size: 35px;
+  }
+
+  .header {
+    width: 60%;
+  }
+}
+/* Styles for screens with a maximum width of 480px */
+@media (max-width: 400px) {
+body {
+        font-size:20px ;
+    }
+         .content .par-1 {
+             font-size: 20px;
+             font-weight: 800;
+         }
+  .content .par-6 {
+    font-size: 30px;
+  }
+
+  .content .par-5 {
+    font-size: 25px;
+    font-weight: 800;
+  }
+  .contact p {
+      font-size: 30px;
+      font-weight: 800;
+  }
+  .content .par-6 span {
+    color: rgb(147, 14, 14);
+    font-size: 40px;
+  }
+
+  .header {
+    width: 60%;
+  }
+}
