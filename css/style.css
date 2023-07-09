@@ -44,7 +44,7 @@ body {
 }
 i {
   font-size: 50px;
-  color: #0a4200;
+  /* color: #0a4200; */
 }
 
 .contact p {
@@ -70,6 +70,44 @@ a:hover {
     -ms-transform: translateX(5px);
     -o-transform: translateX(5px);
 }
+
+.haraj{
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.icons{
+  margin-top: 20px;
+}
+.icons a {
+  margin-right: 20px;
+}
+.icons a i.fa-twitter {
+  color: #1DA1F2;
+}
+
+.icons a i.fa-tiktok {
+  color: black;
+  
+}
+
+.icons a i.fa-snapchat-square {
+  color: #FFFC00;
+  
+}
+
+.icons a i.fa-instagram {
+  color: #C13584;
+}
+
+/* Add similar styles for other icons */
+
+
+
 /* Default styles */
 
 
